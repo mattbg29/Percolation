@@ -153,7 +153,7 @@ public class Percolation {
 
         double stddevNow = stats.stddev(answerArr);
 
-        System.out.println(sumAnswer / t);
-        System.out.println(stddevNow);
+        System.out.println("Avg percolation threshold: " + sumAnswer / t);
+        System.out.println("Standard dev: " + stddevNow);
     }
 }
